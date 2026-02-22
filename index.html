@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- Hetzner -->
+ <html>
+    <head>
+        <!-- Cpanel Server -->
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no, user-scalable=no"><meta name="description" content=""><meta name="robots" content="index,follow"><meta property="og:locale" content="fa_IR"><meta property="og:type" content="website"><meta property="og:site_name" content="منوساز"><meta property="og:title" content="La Minor Cafe"><meta property="og:description" content=""><meta property="og:url" content="https"><meta property="og:image" content=""><meta name="twitter:title" content="La Minor Cafe"><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:site" content="@vixaweb"><meta name="twitter:creator" content="@vixaweb"><title>La Minor Cafe</title><link rel="icon" href="https://menusaz.com/Temp/icon.png" type="image/png">        <script src="https://laminor.menusaz.com/Js/jquery.js?ver105" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://laminor.menusaz.com/Css/main.css?ver105" type="text/css">
+        <link rel="stylesheet" href="https://laminor.menusaz.com/Css/menu6.css?ver105" type="text/css">
+        <script src="https://laminor.menusaz.com/Js/main.js?ver105" type="text/javascript"></script>
+        <script src="https://laminor.menusaz.com/Js/menu6.js?ver105" type="text/javascript"></script>
+
+                
+        <style>
+            body { background-color:#6D794B; }
+            #m6_menu { background-color:#6D794B; }
+            .m6_main_cat { background-color:#6D794B; }
+            .m6_cat_checked { background-color:#606A42; }
+            .m6_main_cat { color:#000000; }
+            .m6_cat { color:#000000; }
+            #rest_info > * i { background-color:#6D794B; }
+            .m6_food > div:nth-child(2) span { background-color:#6D794B;color:#000000; }
+            #note_button { background-color:#606A42;color:#000000; }
+            #reserve_button > * { background-color:#606A42;color:#000000; }
+            #option_add_note { background-color:#606A42;color:#000000; }
+        </style>
+    	<style></style>
+                <script src="https://laminor.menusaz.com/Js/order_null.js?ver105" type="text/javascript"></script>
+    </head>
+
+    <body onresize="update_graphic()">
+        <script>var note_button_name = 'افزودن به یادداشت';</script>
+<script> var back_name = 'بازگشت'; </script>
+                    <div id="cover" style="background-image:url('https://laminor.menusaz.com/Media_folder/5251/bm_5251_1729542824.jpeg')"></div>
+        
+<div id="m6_main_menu" style="display: none;">
+    <div>
+                        
+        <div id="t6_logo"><img src="https://laminor.menusaz.com/Media_folder/5251/img_5251_1729541848.png"></div>
+                            <div class="m6_main_cat" onclick="show_t6_category(25723)">
+                <img src=" https://laminor.menusaz.com/Media_folder/5251/ico_5251_1729539719.png">                        <span>منو</span>
+         </div>
+        
+        
+        
+
+
+
+
+
+
+
+                                    
+                    
+        
+      
+      
+      
+      
+        
+
+                      
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="rest_info">
+                                                                            <span id="rest_insta"><i onclick="view_menu_contact(this,'&lt;a target=\'_blank\' href=\'https://instagram.com/laminor.cafe@\'&gt;laminor.cafe@&lt;/a&gt;')"></i></span>
+                                                        <span id="rest_whatsapp"><i onclick="view_menu_contact(this,'&lt;a style=\'display:block;direction:ltr;\' target=\'_blank\' href=\'https://wa.me/09384185598\'&gt;09384185598&lt;/a&gt;')"></i></span>
+                                <div id="rest_result"><span></span></div>
+        </div>
+        <script>
+            function view_menu_contact(ele,html) {
+                var page_h = $('#m6_main_menu').outerHeight();
+                $('#m6_main_menu').animate({scrollTop:page_h});
+                $("#rest_info > span").removeClass("selected_rest");
+                $(ele).parents("span").addClass("selected_rest");
+                $("#rest_result > span").html(html);
+                $("#rest_result").slideDown(200);
+            }
+        </script>
+    </div>
+</div>
+
+        <div id="m6_menu" style="left: 0px;"><div class="m6_cat" onclick="show_t6_category(0)">بازگشت</div><div class="m6_cat" id="menu_1" onclick="scroll_to_foods(1)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729530010_AF_IMG_1722415148.png"><span>قهوه های گرم</span></div><div class="m6_cat" id="menu_2" onclick="scroll_to_foods(2)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729530128_AF_IMG_1722415178.png"><span>قهوه های سرد</span></div><div class="m6_cat" id="menu_3" onclick="scroll_to_foods(3)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729530335_AF_IMG_1722414673.png"><span>شیک ها</span></div><div class="m6_cat" id="menu_4" onclick="scroll_to_foods(4)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729530412_AF_IMG_1722414678.png"><span>اسموتی ها</span></div><div class="m6_cat" id="menu_5" onclick="scroll_to_foods(5)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729530301_AF_IMG_1721782375.png"><span>ماکتیل ها</span></div><div class="m6_cat" id="menu_6" onclick="scroll_to_foods(6)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729529942_AF_IMG_1721782296.png"><span>بستنی ها</span></div><div class="m6_cat" id="menu_7" onclick="scroll_to_foods(7)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729529901_AF_IMG_1721782463.png"><span>دسرها</span></div><div <div class="m6_cat" id="menu_8" onclick="scroll_to_foods(8)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729530154_AF_IMG_1721782314.png"><span>چای ها</span></div><div class="m6_cat" id="menu_9" onclick="scroll_to_foods(9)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729530201_AF_IMG_1721782132.png"><span>دمنوش ها</span></div><div class="m6_cat" id="menu_10" onclick="scroll_to_foods(10)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729530250_AF_IMG_1721782974.png"><span>نوشیدنی های گرم</span></div><div class="m6_cat" id="menu_11" onclick="scroll_to_foods(11)"><img src="https://laminor.menusaz.com/Media_folder/5251/1729530072_AF_IMG_1721782360.png"><span>قهوه های دمی</span></div></div>
+                <div id="m6_food_holder"><div><div class="m6_title" id="section_1" data-index="1"><div class="food_label">قهوه های گرم</div><div class="m6_food food_bx" data-hasoption="false" data-id="178369" data-image="///Media_folder/5251/header_5251_1727604395.jpeg" data-price="165" data-name="ماچا لاته"><div onclick="get_food_detail(178369)"><div><img src="img/antique-cafe-bg-03.jpg"></div><div><div>ماچا لاته</div><div></div><div>165 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145250" data-image="///Media_folder/5251/img_5251_1729894027.jpg" data-price="90" data-name="اسپرسو عربیکا"><div onclick="get_food_detail(145250)"><div><img src="///Media_folder/5251/img_5251_1729894027.jpg"></div><div><div>اسپرسو عربیکا | Arabica Espresso </div><div> 70 . 30 عربیکا</div><div>90 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145810" data-image="///Media_folder/5251/img_5251_1729894000.jpg" data-price="80" data-name="اسپرسو روبوستا"><div onclick="get_food_detail(145810)"><div><img src="///Media_folder/5251/img_5251_1729894000.jpg"></div><div><div>اسپرسو روبوستا |  Robosta Espresso</div><div>70 ، 30 روبوستا</div><div>80 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145269" data-image="///Media_folder/5251/img_5251_1729893970.jpg" data-price="95" data-name="امریکانو"><div onclick="get_food_detail(145269)"><div><img src="///Media_folder/5251/img_5251_1729893970.jpg"></div><div><div>امریکانو | Americano</div><div>اسپرسو ، آبجوش</div><div>95 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145272" data-image="///Media_folder/5251/img_5251_1730980392.jpg" data-price="140" data-name="نسکافه"><div onclick="get_food_detail(145272)"><div><img src="///Media_folder/5251/img_5251_1730980392.jpg"></div><div><div>نسکافه | nescafe</div><div>نسکافه گلد ، 250ml شیر</div><div>140 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="true" data-id="145273" data-image="///Media_folder/5251/img_5251_1729893938.jpg" data-price="145" data-name="کاپوچینو"><div onclick="get_food_detail(145273)"><div><img src="///Media_folder/5251/img_5251_1729893938.jpg"></div><div><div>کاپوچینو | Cappuccino</div><div>اسپرسو ، 200ml شیر</div><div>145 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145711" data-image="///Media_folder/5251/img_5251_1729893911.jpg" data-price="165" data-name="کاپوچینو طعم دار"><div onclick="get_food_detail(145711)"><div><img src="///Media_folder/5251/img_5251_1729893911.jpg"></div><div><div>کاپوچینو طعم دار | Flavored cappuccino</div><div>اسپرسو ، 200ml شیر ، یکی از این طعم دهنده ها (فندق . شکلات . کارامل . وانیل . نارگیل . دارچین )</div><div>165 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145280" data-image="///Media_folder/5251/img_5251_1729893880.jpg" data-price="155" data-name="لاته آرت"><div onclick="get_food_detail(145280)"><div><img src="///Media_folder/5251/img_5251_1729893880.jpg"></div><div><div>لاته آرت | Latte</div><div>اسپرسو ، 250ml شیر</div><div>155 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145281" data-image="///Media_folder/5251/img_5251_1729893856.jpg" data-price="175" data-name="لاته آرت طعم دار"><div onclick="get_food_detail(145281)"><div><img src="///Media_folder/5251/img_5251_1729893856.jpg"></div><div><div>لاته آرت طعم دار | Flavored latte</div><div>اسپرسو ، 250ml شیر ، یکی از این طعم دهنده ها (فندق . شکلات . کارامل . وانیل . نارگیل . دارچین )</div><div>175 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145282" data-image="///Media_folder/5251/img_5251_1729893828.jpg" data-price="170" data-name="موکا"><div onclick="get_food_detail(145282)"><div><img src="///Media_folder/5251/img_5251_1729893828.jpg"></div><div><div>موکا | Mocha</div><div>اسپرسو ، سیروپ شکلات ، شیر</div><div>170 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145284" data-image="///Media_folder/5251/img_5251_1729893795.jpg" data-price="130" data-name="آفوگاتو"><div onclick="get_food_detail(145284)"><div><img src="///Media_folder/5251/img_5251_1729893795.jpg"></div><div><div>آفوگاتو | Afogato</div><div>اسپرسو ، 1 اسکوپ بستنی وانیلی</div><div>130 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145283" data-image="///Media_folder/5251/img_5251_1729893719.jpg" data-price="170" data-name="کارامل ماکیاتو"><div onclick="get_food_detail(145283)"><div><img src="///Media_folder/5251/img_5251_1729893719.jpg"></div><div><div>کارامل ماکیاتو | Caramel Machiato</div><div> اسپرسو ، سیروپ کارامل ، شیر</div><div>170 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145285" data-image="///Media_folder/5251/img_5251_1729893689.jpg" data-price="120" data-name="کن پانا"><div onclick="get_food_detail(145285)"><div><img src="///Media_folder/5251/img_5251_1729893689.jpg"></div><div><div>کن پانا | Con pana</div><div>اسپرسو ، خامه</div><div>120 تومان</div></div></div></div>
+                </div></div><div class="m6_title" id="section_2" data-index="2"><div class="food_label">قهوه های سرد</div><div class="m6_food food_bx" data-hasoption="false" data-id="178370" data-image="///Media_folder/5251/header_5251_1727604395.jpeg" data-price="165" data-name="آیس ماچا"><div onclick="get_food_detail(178370)"><div><img src="///Media_folder/5251/header_5251_1727604395.jpeg"></div><div><div>آیس ماچا</div><div></div><div>165 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="178372" data-image="///Media_folder/5251/header_5251_1727604395.jpeg" data-price="180" data-name="آیس ماچا طعم دار"><div onclick="get_food_detail(178372)"><div><img src="///Media_folder/5251/header_5251_1727604395.jpeg"></div><div><div>آیس ماچا طعم دار</div><div></div><div>180 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="151343" data-image="///Media_folder/5251/img_5251_1734549745.jpeg" data-price="170" data-name="دالگونا"><div onclick="get_food_detail(151343)"><div><img src="///Media_folder/5251/img_5251_1734549745.jpeg"></div><div><div>دالگونا | Dalgona</div><div>نسکافه ، شیر ، شکر ، یخ</div><div>170 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145287" data-image="///Media_folder/5251/img_5251_1729947077.jpg" data-price="150" data-name="آیس لاته"><div onclick="get_food_detail(145287)"><div><img src="///Media_folder/5251/img_5251_1729947077.jpg"></div><div><div>آیس لاته | Iced latte</div><div>اسپرسو ، شیر ، یخ</div><div>150 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145289" data-image="///Media_folder/5251/img_5251_1729947052.jpg" data-price="170" data-name="آیس لاته طعم دار"><div onclick="get_food_detail(145289)"><div><img src="///Media_folder/5251/img_5251_1729947052.jpg"></div><div><div>آیس لاته طعم دار | Flaverd iced latte</div><div>اسپرسو ، شیر ، سیروپ (شکلات ، کارامل ، نارگیل ، فندق ، دارچین) یخ</div><div>170 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145288" data-image="///Media_folder/5251/img_5251_1729947022.jpg" data-price="95" data-name="آیس امریکانو"><div onclick="get_food_detail(145288)"><div><img src="///Media_folder/5251/img_5251_1729947022.jpg"></div><div><div>آیس امریکانو | Iced americano</div><div>اسپرسو ، آب ، یخ</div><div>95 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145713" data-image="///Media_folder/5251/img_5251_1729946982.jpg" data-price="195" data-name="فراپوچینو"><div onclick="get_food_detail(145713)"><div><img src="///Media_folder/5251/img_5251_1729946982.jpg"></div><div><div>فراپوچینو | Frappuccino</div><div>اسپرسو ، بستنی وانیل و شکلات ، شیر ، یخ</div><div>195 تومان</div></div></div>
+                </div></div><div class="m6_title" id="section_3" data-index="3"><div class="food_label">شیک ها</div><div class="m6_food food_bx" data-hasoption="false" data-id="145324" data-image="///Media_folder/5251/img_5251_1730983729.jpg" data-price="285" data-name="شیک مخصوص"><div onclick="get_food_detail(145324)"><div><img src="///Media_folder/5251/img_5251_1730983729.jpg"></div><div><div>شیک مخصوص | Special milk shake</div><div>بستنی معجون ، موز ، نسکافه گلد ، خامه ،  گردو ، پسته</div><div>285 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145319" data-image="///Media_folder/5251/img_5251_1730044902.jpg" data-price="180" data-name="شکلات"><div onclick="get_food_detail(145319)"><div><img src="///Media_folder/5251/img_5251_1730044902.jpg"></div><div><div>شکلات | Chocolate</div><div>بستنی شکلاتی ، شیر</div><div>180 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145732" data-image="///Media_folder/5251/img_5251_1730044801.jpg" data-price="195" data-name="موز شکلات"><div onclick="get_food_detail(145732)"><div><img src="///Media_folder/5251/img_5251_1730044801.jpg"></div><div><div>موز شکلات | banana chocolate</div><div>بستنی شکلاتی ، موز ، شیر</div><div>195 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145325" data-image="///Media_folder/5251/img_5251_1730046502.jpg" data-price="205" data-name="نوتلا"><div onclick="get_food_detail(145325)"><div><img src="///Media_folder/5251/img_5251_1730046502.jpg"></div><div><div>نوتلا | Nutella</div><div>بستنی وانیل ، نوتلا ، شیر</div><div>205 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145714" data-image="///Media_folder/5251/img_5251_1730046447.jpg" data-price="220" data-name="موز نوتلا"><div onclick="get_food_detail(145714)"><div><img src="///Media_folder/5251/img_5251_1730046447.jpg"></div><div><div>موز نوتلا | Banana nutella milk shake</div><div>بستنی وانیل ، نوتلا ، موز ، شیر</div><div>220 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145733" data-image="///Media_folder/5251/img_5251_1730044632.jpg" data-price="225" data-name="اسپرسو"><div onclick="get_food_detail(145733)"><div><img src="///Media_folder/5251/img_5251_1730044632.jpg"></div><div><div>اسپرسو | Espresso</div><div>بستنی وانیل و شکلات ، اسپرسو ، شیر</div><div>225 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145322" data-image="///Media_folder/5251/img_5251_1730044599.jpg" data-price="195" data-name="بادام زمینی"><div onclick="get_food_detail(145322)"><div><img src="///Media_folder/5251/img_5251_1730044599.jpg"></div><div><div>بادام زمینی | Peanut</div><div>بستنی وانیل ، کره بادام زمینی ، شیر</div><div>195 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145320" data-image="///Media_folder/5251/img_5251_1730044508.jpg" data-price="195" data-name="بیسکویت"><div onclick="get_food_detail(145320)"><div><img src="///Media_folder/5251/img_5251_1730044508.jpg"></div><div><div>بیسکویت | Biscuit milk shake </div><div>بستنی وانیل ، بیسکویت ، شیر</div><div>195 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145323" data-image="///Media_folder/5251/img_5251_1730023638.jpg" data-price="175" data-name="انبه"><div onclick="get_food_detail(145323)"><div><img src="///Media_folder/5251/img_5251_1730023638.jpg"></div><div><div>انبه | Mango</div><div>بستنی انبه ، شیر</div><div>175 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145321" data-image="///Media_folder/5251/img_5251_1730023595.jpg" data-price="175" data-name="توت فرنگی"><div onclick="get_food_detail(145321)"><div><img src="///Media_folder/5251/img_5251_1730023595.jpg"></div><div><div>توت فرنگی | Strawberry </div><div>بستنی توت فرنگی ، شیر</div><div>175 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145734" data-image="///Media_folder/5251/img_5251_1730023572.jpg" data-price="170" data-name="وانیل"><div onclick="get_food_detail(145734)"><div><img src="///Media_folder/5251/img_5251_1730023572.jpg"></div><div><div>وانیل | Vanilla</div><div>بستنی وانیل ، شیر</div><div>170 تومان</div></div></div>
+            </div></div><div class="m6_title" id="section_4" data-index="4"><div class="food_label">اسموتی ها</div><div class="m6_food food_bx" data-hasoption="false" data-id="145329" data-image="///Media_folder/5251/img_5251_1730205197.jpg" data-price="250" data-name="تروپیکال"><div onclick="get_food_detail(145329)"><div><img src="///Media_folder/5251/img_5251_1730205197.jpg"></div><div><div>تروپیکال | Tropical</div><div>ترکیب طعمی آناناس ، انبه ، موز ، نارگیل ، پرتقال</div><div>250 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145328" data-image="///Media_folder/5251/img_5251_1730205177.jpg" data-price="190" data-name="پیناکولادا"><div onclick="get_food_detail(145328)"><div><img src="///Media_folder/5251/img_5251_1730205177.jpg"></div><div><div>پیناکولادا | Pinacolada</div><div>ترکیب طعمی آناناس و نارگیل</div><div>190 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145327" data-image="///Media_folder/5251/img_5251_1730205146.jpg" data-price="200" data-name="انبه شاه توت"><div onclick="get_food_detail(145327)"><div><img src="///Media_folder/5251/img_5251_1730205146.jpg"></div><div><div>انبه شاه توت | Blackberry mango</div><div>ترکیب طعمی انبه و شاه توت</div><div>200 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145738" data-image="///Media_folder/5251/img_5251_1730205088.jpg" data-price="210" data-name="چری بری"><div onclick="get_food_detail(145738)"><div><img src="///Media_folder/5251/img_5251_1730205088.jpg"></div><div><div>چری بری | Cherry berry</div><div>ترکیب میوه های قرمز ، طعم ترش و ملس</div><div>210 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="179366" data-image="///Media_folder/5251/header_5251_1727604395.jpeg" data-price="110" data-name="هندوانه"><div onclick="get_food_detail(179366)"><div><img src="///Media_folder/5251/header_5251_1727604395.jpeg"></div><div><div>هندوانه</div><div></div><div>110 تومان</div></div></div>
+            </div></div><div class="m6_title" id="section_5" data-index="5"><div class="food_label">ماکتیل ها</div><div class="m6_food food_bx" data-hasoption="false" data-id="145330" data-image="///Media_folder/5251/img_5251_1730205325.jpg" data-price="165" data-name="موهیتو"><div onclick="get_food_detail(145330)"><div><img src="///Media_folder/5251/img_5251_1730205325.jpg"></div><div><div><img class="food_icon" src="///Media_folder/5251/iimg_5251_1730116537.jpg">موهیتو | Mojito</div><div>لیمو ، نعنا ، اسپرایت ، سیروپ شکر ، یخ</div><div>165 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145331" data-image="///Media_folder/5251/img_5251_1730116690.jpg" data-price="180" data-name="رد موهیتو"><div onclick="get_food_detail(145331)"><div><img src="///Media_folder/5251/img_5251_1730116690.jpg"></div><div><div>رد موهیتو | Red mojito</div><div>موهیتو با طعم توت فرنگی</div><div>180 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145335" data-image="///Media_folder/5251/img_5251_1730116649.jpg" data-price="185" data-name="موهیتو پشن"><div onclick="get_food_detail(145335)"><div><img src="///Media_folder/5251/img_5251_1730116649.jpg"></div><div><div>موهیتو پشن |  Passion fruit mojito </div><div>موهیتو با طعم پشن فروت</div><div>185 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145333" data-image="///Media_folder/5251/img_5251_1730205225.jpg" data-price="155" data-name="لیموناد"><div onclick="get_food_detail(145333)"><div><img src="///Media_folder/5251/img_5251_1730205225.jpg"></div><div><div>لیموناد | Lemonad</div><div>نوشیدنی گازدار با طعم لیمو</div><div>155 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145332" data-image="///Media_folder/5251/img_5251_1730983838.jpg" data-price="200" data-name="ردبول"><div onclick="get_food_detail(145332)"><div><img src="///Media_folder/5251/img_5251_1730983838.jpg"></div><div><div>ردبول |  red bull mocktail </div><div>ردبول ماکتیل یک ماکتیل انرژی زاست که ترکیبی از طعم های سیب ، آناناس ، ردبول و ... است .</div><div>200 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145337" data-image="///Media_folder/5251/img_5251_1730116615.jpg" data-price="210" data-name="مارگاریتا"><div onclick="get_food_detail(145337)"><div><img src="///Media_folder/5251/img_5251_1730116615.jpg"></div><div><div>مارگاریتا | Vergin margarita</div><div>مارگاریتا یک ماکتیل بین المللی است که از ترکیب طعمی پرتقال ، لیمو و ... به دست می آید . البته در نسخه اصلی از تکیلا (یک نوع نوشیدنی الکلی)هم استفاده میشود .</div><div>210 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145334" data-image="///Media_folder/5251/img_5251_1730205265.jpg" data-price="195" data-name="خیارسکنجبین"><div onclick="get_food_detail(145334)"><div><img src="///Media_folder/5251/img_5251_1730205265.jpg"></div><div><div>خیارسکنجبین | Secangebin cucamber</div><div></div><div>195 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145747" data-image="///Media_folder/5251/header_5251_1727604395.jpeg" data-price="165" data-name="شیر موز"><div onclick="get_food_detail(145747)"><div><img src="///Media_folder/5251/header_5251_1727604395.jpeg"></div><div><div>شیر موز | Banana milk</div><div>شیر ، موز ، پودر نارگیل یا کنجد به دلخواه</div><div>165 تومان</div></div></div>
+        </div></div><div class="m6_title" id="section_6" data-index="6"><div class="food_label">بستنی ها</div><div class="m6_food food_bx" data-hasoption="false" data-id="145338" data-image="///Media_folder/5251/img_5251_1730983913.jpg" data-price="295" data-name="بستنی مخصوص لامینور"><div onclick="get_food_detail(145338)"><div><img src="///Media_folder/5251/img_5251_1730983913.jpg"></div><div><div>بستنی مخصوص لامینور | La Minor special ice cream</div><div>بستنی با طعم های شکلات ، معجون ، وانیل ، شاه توت و انبه ، خامه ، مغزها ، موز</div><div>295 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145339" data-image="///Media_folder/5251/img_5251_1730983876.jpg" data-price="45" data-name="بستنی اسکوپی"><div onclick="get_food_detail(145339)"><div><img src="///Media_folder/5251/img_5251_1730983876.jpg"></div><div><div>بستنی اسکوپی | Normal ice cream</div><div>بستنی انتخابی شما 3 اسکوپ (شکلات ، وانیل ، توت فرنگی ، انبه ، شاه توت ، )</div><div>45 تومان</div></div></div>
+        </div></div><div class="m6_title" id="section_7" data-index="7"><div class="food_label">دسرها</div><div class="m6_food food_bx" data-hasoption="false" data-id="172665" data-image="///Media_folder/5251/header_5251_1727604395.jpeg" data-price="120" data-name="تیرامیسو"><div onclick="get_food_detail(172665)"><div><img src="///Media_folder/5251/header_5251_1727604395.jpeg"></div><div><div>تیرامیسو</div><div></div><div>120 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="170425" data-image="///Media_folder/5251/header_5251_1727604395.jpeg" data-price="80" data-name="کوکی نیویورکی"><div onclick="get_food_detail(170425)"><div><img src="///Media_folder/5251/header_5251_1727604395.jpeg"></div><div><div>کوکی نیویورکی</div><div></div><div>80 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="168091" data-image="///Media_folder/5251/header_5251_1727604395.jpeg" data-price="70" data-name="کوکی شکلاتی"><div onclick="get_food_detail(168091)"><div><img src="///Media_folder/5251/header_5251_1727604395.jpeg"></div><div><div>کوکی شکلاتی</div><div></div><div>70 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145345" data-image="///Media_folder/5251/img_5251_1730205354.jpg" data-price="280" data-name="وافل"><div onclick="get_food_detail(145345)"><div><img src="///Media_folder/5251/img_5251_1730205354.jpg"></div><div><div>وافل | Wafel</div><div>کرپ ، موز ، نوتلا ، 2 اسکوپ بستنی ، گارنیش میوه فصل </div><div>280 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145344" data-image="///Media_folder/5251/img_5251_1730205473.jpg" data-price="220" data-name="کرپ"><div onclick="get_food_detail(145344)"><div><img src="///Media_folder/5251/img_5251_1730205473.jpg"></div><div><div>کرپ | Crep</div><div>کرپ ، موز ، نوتلا ، 2 اسکوپ بستنی ، گارنیش میوه فصل </div><div>220 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145342" data-image="///Media_folder/5251/img_5251_1730984217.jpg" data-price="145" data-name="چیز کیک لوتوس"><div onclick="get_food_detail(145342)"><div><img src="///Media_folder/5251/img_5251_1730984217.jpg"></div><div><div>چیز کیک لوتوس | chees cake</div><div></div><div>145 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145340" data-image="///Media_folder/5251/img_5251_1730984238.jpg" data-price="145" data-name="کیک شکلاتی مغز دار"><div onclick="get_food_detail(145340)"><div><img src="///Media_folder/5251/img_5251_1730984238.jpg"></div><div><div>کیک شکلاتی مغز دار | Chocolate cake</div><div></div><div>145 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="157727" data-image="///Media_folder/5251/img_5251_1739198501.jpeg" data-price="135" data-name="کیک هویج گردو"><div onclick="get_food_detail(157727)"><div><img src="///Media_folder/5251/img_5251_1739198501.jpeg"></div><div><div>کیک هویج گردو | Carrot and walnut cake</div><div></div><div>135 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="156045" data-image="///Media_folder/5251/img_5251_1737756575.jpeg" data-price="40" data-name="باقلوا انگشتی"><div onclick="get_food_detail(156045)"><div><img src="///Media_folder/5251/img_5251_1737756575.jpeg"></div><div><div>باقلوا انگشتی | Baklava</div><div></div><div>40 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="156046" data-image="///Media_folder/5251/img_5251_1737756697.jpeg" data-price="50" data-name="باقلوا صدفی"><div onclick="get_food_detail(156046)"><div><img src="///Media_folder/5251/img_5251_1737756697.jpeg"></div><div><div>باقلوا صدفی | Baklava </div><div></div><div>50 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="170426" data-image="///Media_folder/5251/header_5251_1727604395.jpeg" data-price="155" data-name="کروسان موز نوتلا"><div onclick="get_food_detail(170426)"><div><img src="///Media_folder/5251/header_5251_1727604395.jpeg"></div><div><div>کروسان موز نوتلا</div><div></div><div>155 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="147002" data-image="///Media_folder/5251/img_5251_1730984140.jpg" data-price="140" data-name="کروسان نوتلا"><div onclick="get_food_detail(147002)"><div><img src="///Media_folder/5251/img_5251_1730984140.jpg"></div><div><div>کروسان نوتلا | Nutella Crosissant</div><div></div><div>140 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145347" data-image="///Media_folder/5251/img_5251_1730984050.jpg" data-price="110" data-name="کروسان ساده"><div onclick="get_food_detail(145347)"><div><img src="///Media_folder/5251/img_5251_1730984050.jpg"></div><div><div>کروسان ساده | Crosissant</div><div></div><div>110 تومان</div></div></div>
+
+    </div></div><div class="m6_title" id="section_9" data-index="9"><div class="food_label">دمنوش ها</div><div class="m6_food food_bx" data-hasoption="false" data-id="145302" data-image="///Media_folder/5251/img_5251_1729947656.jpg" data-price="110" data-name="گل گاو زبان"><div onclick="get_food_detail(145302)"><div><img src="///Media_folder/5251/img_5251_1729947656.jpg"></div><div><div>گل گاو زبان | Borage</div><div>1 فرنچ پرس گل گاو زبان ، نبات</div><div>110 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145313" data-image="///Media_folder/5251/img_5251_1729947626.jpg" data-price="100" data-name="بهار نارنج"><div onclick="get_food_detail(145313)"><div><img src="///Media_folder/5251/img_5251_1729947626.jpg"></div><div><div>بهار نارنج | Orange blossom tea</div><div>1 فرنچ پرس بهار نارنج ، نبات</div><div>100 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145312" data-image="///Media_folder/5251/img_5251_1729947570.jpg" data-price="100" data-name="به لیمو"><div onclick="get_food_detail(145312)"><div><img src="///Media_folder/5251/img_5251_1729947570.jpg"></div><div><div>به لیمو | Lemon verbena herbal tea</div><div>1 فرنچ پرس به لیمو ، نبات</div><div>100 تومان</div></div></div>
+    </div></div><div class="m6_title" id="section_10" data-index="10"><div class="food_label">نوشیدنی های گرم</div><div class="m6_food food_bx" data-hasoption="false" data-id="147000" data-image="///Media_folder/5251/img_5251_1730983415.jpg" data-price="150" data-name="شیر پسته"><div onclick="get_food_detail(147000)"><div><img src="///Media_folder/5251/img_5251_1730983415.jpg"></div><div><div>شیر پسته | Pistachio milk</div><div></div><div>150 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="164370" data-image="///Media_folder/5251/img_5251_1744052438.jpg" data-price="320" data-name="هات چاکلت دو نفره"><div onclick="get_food_detail(164370)"><div><img src="///Media_folder/5251/img_5251_1744052438.jpg"></div><div><div>هات چاکلت دو نفره | Hot chocolate</div><div></div><div>320 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145314" data-image="///Media_folder/5251/img_5251_1729947469.jpg" data-price="160" data-name="هات چاکلت یک نفره"><div onclick="get_food_detail(145314)"><div><img src="///Media_folder/5251/img_5251_1729947469.jpg"></div><div><div>هات چاکلت یک نفره | Hot chocolate</div><div>پودر هات چاکلت ، خامه ، شیر</div><div>160 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145316" data-image="///Media_folder/5251/img_5251_1729947415.jpg" data-price="150" data-name="شیر کاکائو"><div onclick="get_food_detail(145316)"><div><img src="///Media_folder/5251/img_5251_1729947415.jpg"></div><div><div>شیر کاکائو | Chocolate milk</div><div>پودر کاکائو ، شیر</div><div>150 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145315" data-image="///Media_folder/5251/img_5251_1744052817.jpg" data-price="150" data-name="وایت شکلات"><div onclick="get_food_detail(145315)"><div><img src="///Media_folder/5251/img_5251_1744052817.jpg"></div><div><div>وایت شکلات | Waite chocolate</div><div>وایت چاکلت ، شیر</div><div>150 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="146990" data-image="///Media_folder/5251/img_5251_1730981198.jpg" data-price="150" data-name="ماسالا"><div onclick="get_food_detail(146990)"><div><img src="///Media_folder/5251/img_5251_1730981198.jpg"></div><div><div>ماسالا | Normal masala</div><div></div><div>150 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="146998" data-image="///Media_folder/5251/img_5251_1730981717.jpg" data-price="130" data-name="کاپوچینو پودری شیرین"><div onclick="get_food_detail(146998)"><div><img src="///Media_folder/5251/img_5251_1730981717.jpg"></div><div><div>کاپوچینو پودری شیرین | Sweet powdered cappuccino</div><div></div><div>130 تومان</div></div></div>
+    </div></div><div class="m6_title" id="section_11" data-index="11"><div class="food_label">قهوه های دمی</div><div class="m6_food food_bx" data-hasoption="false" data-id="145290" data-image="///Media_folder/5251/img_5251_1744054401.jpg" data-price="170" data-name="وی 60"><div onclick="get_food_detail(145290)"><div><img src="///Media_folder/5251/img_5251_1744054401.jpg"></div><div><div>وی 60 | V60</div><div></div><div>170 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145292" data-image="///Media_folder/5251/img_5251_1744054539.jpg" data-price="170" data-name="کمکس"><div onclick="get_food_detail(145292)"><div><img src="///Media_folder/5251/img_5251_1744054539.jpg"></div><div><div>کمکس | Chemex</div><div></div><div>170 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145291" data-image="///Media_folder/5251/img_5251_1744054905.jpg" data-price="175" data-name="سایفون"><div onclick="get_food_detail(145291)"><div><img src="///Media_folder/5251/img_5251_1744054905.jpg"></div><div><div>سایفون | Saiphon</div><div></div><div>175 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145294" data-image="///Media_folder/5251/img_5251_1744054220.jpg" data-price="110" data-name="قهوه ترک"><div onclick="get_food_detail(145294)"><div><img src="///Media_folder/5251/img_5251_1744054220.jpg"></div><div><div>قهوه ترک | Turkish coffee</div><div></div><div>110 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145293" data-image="///Media_folder/5251/img_5251_1744055047.jpg" data-price="180" data-name="قهوه فرانسه"><div onclick="get_food_detail(145293)"><div><img src="///Media_folder/5251/img_5251_1744055047.jpg"></div><div><div>قهوه فرانسه | French coffee</div><div></div><div>180 تومان</div></div></div></div><div class="m6_food food_bx" data-hasoption="false" data-id="145295" data-image="///Media_folder/5251/img_5251_1744055167.jpg" data-price="120" data-name="قهوه یونانی"><div onclick="get_food_detail(145295)"><div><img src="///Media_folder/5251/img_5251_1744055167.jpg"></div><div><div>قهوه یونانی | Greek coffee</div><div></div><div>120 تومان</div></div></div>
+
+        <div id="t1_detail" class="tbl">
+            <div>
+                <div id="detail_window">
+                    <div class="tbl"><div></div><div><img src="https://laminor.menusaz.com/Temp/close_black.png" onclick="close_t1_detail()"></div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="t1_options" class="tbl">
+            <div>
+                <div id="option_window">
+                    <div class="tbl"><div>افزودن سفارش  </div><div><img src="https://laminor.menusaz.com/Temp/close_black.png" onclick="close_t1_option()"></div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div id="loading" class="tbl"><div><i></i></div></div>
+<script>
+	var main_path = 'https://laminor.menusaz.com/';
+	var message = '';
+	var message_mode = 0;
+	$(document).ready(function() {
+		if(message!='') {
+			show_message(message_mode,message);
+		}
+	});
+	</script>
+<div id="message_bar" class="">
+	<div onclick="hide_message()"><i></i><span></span></div>
+</div>
+
+
+<div id="window_over_back">
+	<div class="tbl">
+		<div>
+
+                                                    
+		</div>
+	</div>
+</div>
+
+        <script>
+            function show_pager() {
+                $("#action_back").fadeIn(200);
+                $("#pager").css({display:'block',opacity:0,bottom:'-800px'});
+                $("#pager").animate({opacity:1,bottom:'20px'},300);
+            }
+            function show_rating () {
+                $("#action_back").fadeIn(200);
+                $(".rate_step").css({display:'none'});
+                $(".rate_step:nth-child(1)").css({display:'block'});
+                $("#rate").css({display:'block',opacity:0,bottom:'-800px'});
+                $("#rate").animate({opacity:1,bottom:'20px'},300);
+            }
+            function hide_action() {
+                $(".action_window").animate({opacity:0,bottom:'-800px'},300,function() {
+                    $("#action_back").fadeOut(200);
+                    $(".action_window").css({display:'none'});
+                });
+            }
+            function pager(id) {
+                show_loading();
+                $.ajax({
+                    type:"POST",
+                    url:main_path+"Script/pager.php",
+                    data: {
+                        id:id,
+                        mode:$("#pager_mode input:checked").val(),
+                        num:$("#pager_num").val()
+                    },
+                    success:function(result){
+                        hide_loading();
+                        result = JSON.parse(result);
+                        show_message(result.status,result.message);
+                        if(result.status==1) {
+                            hide_action();
+                        }
+                    },
+                    error:function(){
+                        hide_loading();
+                        show_message(false,connection_error);
+                    }
+                });
+            }
+            function change_rating(mode,index) {
+                index = index + 1;
+                if(mode=='prev') index--;
+                else index++;
+                $(".rate_step").css({display:'none'});
+                $(".rate_step:nth-child("+index+")").css({display:'block'});
+            }
+            function rate(id) {
+                show_loading();
+                var questions = [];
+                var items = $(".rate_rows");
+                for(var i=0;i<items.length;i++) {
+                    questions.push({
+                        question:$(items[i]).find(".pager_title").text(),
+                        answer:$(items[i]).find(".pager_buttons input:checked").val()
+                    });
+                }
+                $.ajax({
+                    type:"POST",
+                    url:main_path+"Script/rate.php",
+                    data: {
+                        id:id,
+                        questions:JSON.stringify(questions),
+                        name:$("#rate_name").val(),
+                        mobile:$("#rate_mobile").val(),
+                        comment:$("#rate_comment").val(),
+                    },
+                    success:function(result){
+                        hide_loading();
+                        result = JSON.parse(result);
+                        show_message(result.status,result.message);
+                        if(result.status==1) {
+                            hide_action();
+                        }
+                    },
+                    error:function(){
+                        hide_loading();
+                        show_message(false,connection_error);
+                    }
+                });
+            }
+        </script>
+        <style>
+            #action_back { position:fixed;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);z-index:+100;display:none; }
+            .action_window { position:fixed;left:5%;bottom:-800px;z-index:+101;background-color:#fff;border-radius:20px;padding:30px;
+                box-sizing:border-box;text-align:center;width:90%;display:none; }
+            .pager_image img { width:100%;max-width:150px; }
+            .pager_title { font-size:14pt;font-family:black,tahoma;margin-bottom:20px;color:#2b4060;letter-spacing:-0.8pt;margin-top:0px; }
+            .pager_buttons { margin:0px auto 15px;width:100%;max-width:250px;border-radius:15px;overflow:hidden;border:1px solid #aaa; }
+            .pager_buttons > * { display:block;cursor:pointer;text-align:center;padding:10px 15px;font-size:11pt;
+                border-bottom:1px solid #aaa;margin:0px auto;font-family:bold,tahoma;text-align:right; }
+            .pager_buttons > *:last-child { border-style:none; }
+            .pager_input { margin:0px auto 15px;width:100%;max-width:250px;overflow:hidden; }
+            .pager_input div { font-size:11pt;font-family:bold,tahoma;text-align:right;padding-right:10px;margin-bottom:3px; }
+            .pager_input input { width:100%;border-style:none;height:45px;padding:5px 10px;box-sizing:border-box;
+                background:none;text-align:center;font-size:11pt;border-radius:15px;border:1px solid #aaa; }
+            .pager_input textarea { width:100%;border-style:none;height:120px;padding:5px 10px;box-sizing:border-box;
+                background:none;text-align:center;font-size:11pt;border-radius:15px;border:1px solid #aaa; }
+            .pager_save { text-align:center;margin-top:25px;font-size:11pt; }
+            .pager_save > * { display:inline-block;vertical-align:middle;padding:10px 30px;border-radius:15px;color:#fff;
+                cursor:pointer;background-color:#2b4060;}
+            .quiz_button { text-align:center;margin-top:25px;font-size:11pt;font-family:bold,tahoma; }
+            .quiz_button > * { display:inline-block;vertical-align:middle;padding:10px 30px;border-radius:15px;color:#000;
+                cursor:pointer;background-color:#ddd;}
+        </style>
+        <div id="action_back" onclick="hide_action()"></div>
+        <div class="action_window" id="pager">
+            <div class="pager_image"><img src="https://laminor.menusaz.com/Temp/pager.gif"></div>
+            <div class="pager_title">درخواست خود را اطلاع دهید</div>
+            <div class="pager_buttons" id="pager_mode">
+                                                                </div>
+            <div class="pager_input">
+                <div>شماره میز خود را وارد کنید</div>
+                <input type="text" id="pager_num" placeholder="شماره میز">
+            </div>
+            <div class="pager_save"><span onclick="pager(5251)">ثبت درخواست</span></div>
+        </div>
+        <div class="action_window" id="rate">
+                                                    <div class="rate_step">
+                <div class="pager_title">نظر خود را ثبت نمائید</div>
+                <div class="pager_input">
+                    <div>نام شما</div>
+                    <input type="text" id="rate_name" placeholder="___ _____">
+                </div>
+                <div class="pager_input">
+                    <div>شماره موبایل</div>
+                    <input type="text" id="rate_mobile" class="ltr" placeholder="09__________">
+                </div>
+                <div class="pager_input">
+                    <div>اگر نظر دیگری دارید اینجا وارد کنید</div>
+                    <textarea id="rate_comment"></textarea>
+                </div>
+                <div class="pager_save"><span onclick="rate(5251)">ثبت نظر</span></div>
+                <div class="quiz_button">
+                    <span onclick="change_rating('prev',1)">بازگشت به سوالات</span>
+                </div>
+            </div>
+        </div>
+
+
+    
+
+</body>
+</html>
